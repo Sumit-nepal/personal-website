@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -27,6 +29,7 @@
       </nav>
     </div>
   </header>
+
   <section id="home" class="hero">
     <div class="container">
       <div class="hero-content">
@@ -37,7 +40,8 @@
         </div>
       </div>
     </div>
-  </section>  
+  </section>
+
   <section id="about" class="section">
     <div class="container">
       <h2>About Me</h2>
@@ -45,6 +49,7 @@
       <a href="#contact" class="btn">Get in Touch</a>
     </div>
   </section>
+
   <section id="portfolio" class="section">
     <div class="container">
       <h2>My Portfolio</h2>
@@ -52,12 +57,36 @@
       <a href="#contact" class="btn">Get in Touch</a>
     </div>
   </section>
+
   <section id="contact" class="section">
     <div class="container">
       <h2>Contact Me</h2>
       <p>If you have any questions, project inquiries, or just want to say hello, feel free to reach out. I'm always excited to connect with fellow enthusiasts, clients, or potential collaborators. Let's discuss your ideas and bring them to life!</p>
+      <div class="form-main">
+        <form action="https://formspree.io/f/xayzkrll" method="POST">
+          <div class="input-field">
+            <label>
+              <input type="email" name="email" placeholder="abc@gmail.com">
+            </label>
+          </div>
+          <div class="input-field">
+            <label>
+              <input type="text" name="name" placeholder="Enter your name">
+            </label>
+          </div>
+          <div class="input-field">
+            <label>
+              <div class="textarea-field">
+                <textarea name="message" placeholder="Enter your message.."></textarea>
+              </div>
+            </label>
+          </div>
+          <button class="button1" type="submit">Send</button>
+        </form>
+      </div>
     </div>
   </section>
+
   <footer>
     <div class="container">
       <div class="footer-content">
@@ -78,7 +107,10 @@
         </div>
       </div>
       <p>&copy; 2023 Sumit Nepal. All rights reserved.</p>
-    </div>    
+    </div>
   </footer>
+
+  <script src="script.js" defer></script>
 </body>
+
 </html>
