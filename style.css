@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #000;
+  background-image:url(img/background.jpg);
   padding: 10px 0;
   position: sticky;
   top: 0;
@@ -139,32 +139,17 @@ section p {
   color: white;
 }
 
-.html {
-  width: 70%; 
-  background-color: #04AA6D;
-} 
-
-.css {
-  width: 60%; 
-  background-color: #2196F3;
-} 
-
-.js {
-  width: 65%; 
-  background-color: #f44336;
-} 
-
-.python {
-  width: 60%; 
-  background-color: #808080;
-}
+.html {width: 50%; background-color: #04AA6D;} 
+.css {width: 55%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.python {width: 70%; background-color: #808080;}
 
 .skill-bars{
-  padding: 0px 10px;
+    padding: 0px 10px;
 }
 
 footer {
-  background-color: #000;
+  background-image: url(img/background.jpg);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -388,12 +373,12 @@ footer {
 .textarea-field textarea {
   width: 100%;
   border: none;
-  border-bottom: 2px solid #00abf0;
+  border-bottom: 2px solid #3000f0;
   outline: none;
   font-size: 19px;
   padding: 10px 0;
   background: transparent;
-  color: #fff;
+  color: floralwhite;
 }
 
 .textarea-field textarea {
@@ -407,7 +392,7 @@ footer {
 }
 
 .button {
-  background-color: #00f7ff;
+  background-color: #ff2200;
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
@@ -423,7 +408,7 @@ footer {
 }
 
 .button:hover {
-  background-color: #2229ff;
+  background-color: #5fc01e;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 
