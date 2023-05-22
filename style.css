@@ -116,7 +116,9 @@ nav ul li a:hover {
   background-size: cover;
   background-position: center;
 }
-
+#home {
+  background-image: url(img/background.jpg)
+}
 section {
   padding: 40px 0;
   background-color: #000;
@@ -137,16 +139,24 @@ section p {
 
 .button1 {
   position: absolute;
-  top:100%;
+  top: 100%;
   left: 33%;
   padding: 10px 20px;
-  background-color: #6976b7;
+  background: linear-gradient(to right, blue, red);
+  background-size: 200% auto; 
+  background-position: 100% 50%; 
   color: #fff;
   font-size: 16px;
   border: none;
   border-radius: 20px;
-  cursor:pointer;
+  cursor: pointer;
+  transition: background-position 1.5s ease; 
 }
+
+.button1:hover {
+  background-position: 0% 50%;
+}
+
 
 .button {
   display: inline-block;
