@@ -349,9 +349,17 @@ footer {
 /* Responsive Styles */
 /* Phone */
 @media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
   header .container {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  header .logo img {
+    width: 80px;
   }
 
   nav ul {
@@ -366,19 +374,44 @@ footer {
   }
 
   .hero h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   section h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   section p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .button1 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .portfolio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  footer {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .social-media li {
+    margin: 0 5px;
   }
 
   .footer-links ul {
@@ -387,6 +420,23 @@ footer {
 
   .footer-links li {
     margin: 5px;
+  }
+
+  .footer-links li:first-child {
+    margin-left: 0;
+  }
+
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+
+  .footer-links p {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .copyright {
+    text-align: center;
   }
 }
 
@@ -407,6 +457,11 @@ footer {
   section p {
     font-size: 16px;
   }
+
+  .button1 {
+    left: 33%;
+    transform: translateX(0);
+  }
 }
 
 /* Laptop */
@@ -425,6 +480,11 @@ footer {
 
   section p {
     font-size: 18px;
+  }
+
+  .button1 {
+    left: 33%;
+    transform: translateX(0);
   }
 }
 
@@ -446,3 +506,6 @@ footer {
     font-size: 20px;
   }
 }
+
+/* Rest of the CSS code remains the same */
+/* ... */
