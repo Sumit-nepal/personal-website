@@ -109,17 +109,18 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   background-color: #000;
-  background-image: url("img/background.png");
+  background-image: linear-gradient(to right, rgb(13,13,13),rgb(15,15,15),rgb(28, 27, 27),rgb(7,7,7),rgb(10,10,10),rgb(8,8,8));
   background-size: cover;
   background-position: center;
 }
 #home {
-  background-image: url(img/background.png)
+  background-image: linear-gradient(to right, rgb(13,13,13),rgb(15,15,15),rgb(21, 21, 21),rgb(7,7,7),rgb(10,10,10),rgb(8,8,8));
 }
+
 section {
   padding: 40px 0;
   background-color: #000;
-  background-image: url("img/background.png");
+  background-image: linear-gradient(to right, rgb(13,13,13),rgb(15,15,15),rgb(32, 31, 31),rgb(7,7,7),rgb(10,10,10),rgb(8,8,8));
   background-size: cover;
   background-position: center;
 }
