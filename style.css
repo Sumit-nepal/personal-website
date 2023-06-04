@@ -224,19 +224,37 @@ section p {
 
 .skills {
   text-align: center; 
+  align-items: center;
   font-size: 25px;
   padding-top: 5px; 
   padding-bottom: 5px; 
   color: white;
 }
 
-.html {width: 50%; background-color: #04AA6D;} 
-.css {width: 55%; background-color: #2196F3;} 
-.js {width: 65%; background-color: #f44336;} 
-.python {width: 70%; background-color: #808080;}
+.html {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #b33e3e;
+}
+
+.css {
+  width: 55%;
+  border-radius: 10px;
+  background-color: #2196F3;
+} 
+.js {
+  width: 65%;
+  border-radius: 10px;
+  background-color: #d7e14a;
+} 
+.python {
+  width: 70%;
+  border-radius: 10px;
+  background-color: #1862e0;
+}
 
 .skill-bars{
-    padding: 0px 10px;
+  padding: 0px 8px;
 }
 
 /* Contact Form */
